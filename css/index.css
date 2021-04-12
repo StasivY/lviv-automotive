@@ -9,3 +9,7 @@
     transition: color 0.7s;
     background-color: red;
 }
+
+img {
+    max-width: 300px;
+}
