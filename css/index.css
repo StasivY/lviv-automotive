@@ -1,4 +1,41 @@
+:root {
+    --red: #F00000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin:auto; 
+    padding:auto;
+    font-family:Poppins, sans-serif;
+}
+
+.overheader {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
 .button {
+    font-family: Poppins, serif;
     padding: 0.35em 1.2em;
     border: 0.1em solid red;
     margin: 0 0.3em 0.3em 0;
@@ -9,13 +46,59 @@
     transition: color 0.7s;
     background-color: red;
 }
-
-.certeficates {
- width: 270px;
- height: 250,98px;
+ 
+header {
+    background-image:url(../img/background.webp);
+    height: 1240px;
 }
 
-.workers {
-    width: 770px;
-    height: 437,97px;
+.name-logo {
+    font-family: Poppins, serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
+
+.want-to-work {
+    background-color: #191e35;
+    font-family: Poppins, serif;
+    font-size: 34px;
+}
+
+.buttons-work {
+    font-family: Poppins, serif;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #191e35;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: #191e35;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.button:hover {
+    font-family: Poppins, serif;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #191e35;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: #191e35;
+}
+
