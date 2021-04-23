@@ -9,10 +9,6 @@ body {
     font-family:Poppins, sans-serif;
 }
 
-html {
-    background-color: grey;
-}
-
 .overheader {
     background-color: red;
     display: flex;
@@ -28,7 +24,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     flex: 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .sticky {
@@ -105,4 +101,28 @@ a:hover {
     transition: color 0.7s;
     background-color: #191e35;
 }
+
+.background-div {
+    background-color: rgba(25, 30, 53, 0.50); 
+}
+
+.table-one {
+    background-color: rgba(25, 30, 53, 0.84); 
+    width: 40%;
+    height: 40%; 
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.table-two {
+    background-color: rgba(25, 30, 53, 0.84);
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+  }
+
+
 
