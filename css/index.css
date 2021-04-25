@@ -4,27 +4,27 @@
 }
 
 body {
-    margin:auto; 
+    margin:auto;
     padding:auto;
     font-family:Poppins, sans-serif;
+    background-color: #191e35;
 }
 
 .overheader {
-    background-color: red;
+    background-color: orangered;
     display: flex;
     justify-content: space-around;
+    align-items:flex-start;
 }
 
-nav {
-    display: flex;
+.width-logo {
+  width: 221px;
+  height: 58px;
 }
-
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
 }
 
 .sticky {
@@ -37,47 +37,48 @@ nav {
 .button {
     font-family: Poppins, serif;
     padding: 0.35em 1.2em;
-    border: 0.1em solid red;
+    border: 0.1em solid orangered;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     color: white;
     text-decoration: none;
     text-align: center;
     transition: color 0.7s;
-    background-color: red;
+    background-color: orangered;
 }
  
-header {
-    background-image:url(../img/background.webp);
-    height: 1240px;
+#first-block {
+    background: url(//img/background.jpeg);
+    background-repeat: no-repeat; 
+    background-position: top center;
+    background-attachment: fixed;
+    margin-top: 250px;
+    margin-bottom: 200px;
 }
+
 
 .name-logo {
     font-family: Poppins, serif;
-    font-size: 34px;
+    color: orangered;
+    font-size: 56px;
     font-weight: 900;
     line-height: 41px;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
 }
-
-.want-to-work {
-    background-color: #191e35;
+.subheading-logo {
     font-family: Poppins, serif;
-    font-size: 34px;
-}
-
-.buttons-work {
-    font-family: Poppins, serif;
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #191e35;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    color: red;
-    text-decoration: none;
-    text-align: center;
-    transition: color 0.7s;
-    background-color: #191e35;
+    color:white;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
 }
 
 a {
@@ -102,27 +103,130 @@ a:hover {
     background-color: #191e35;
 }
 
-.background-div {
-    background-color: rgba(25, 30, 53, 0.50); 
+.table-one {
+    color: whitesmoke;
+    font-style:italic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 
-.table-one {
-    background-color: rgba(25, 30, 53, 0.84); 
-    width: 40%;
-    height: 40%; 
-    display: flex;
-    flex-flow: column wrap;
-    height: 100%;
-}
 
 .table-two {
-    background-color: rgba(25, 30, 53, 0.84);
-    width: 40%;
-    height: 40%;
-    display: flex;
-    flex-flow: column wrap;
-    height: 100%;
+    color:whitesmoke;
+    font-style:italic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 30px;
   }
 
+  .about-us-table {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.carousel {
+    width: 450px; 
+    height: 150px; 
+}
+
+.why-choose-text {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 70px;
+}
+
+.workers-why-choose {
+    width: 670px;
+    height: 337px;
+    margin-left:600px;
+}
+
+ul {
+    margin-top:50px;
+    color:white;
+    font-size:16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+hr {
+    color: orangered;
+    height: 5px;
+}
+
+.certeficates-name {
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.certeficates {
+    width: 310px;
+    height: 250px;
+    margin-left: 125px;
+}
+
+.text-gallery {
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.work-one {
+    width: 270px;
+    height: 270px;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+.work-two {
+    width: 470px;
+    height: 270px;
+    margin-right: 50px;
+}
+
+.work-three {
+    width: 370px;
+    height: 270px;
+    margin-right: 50px;
+}
+
+.work-four {
+    width: 470px;
+    height: 270px;
+    margin-right: 50px;
+}
+
+.work-five {
+    width: 370px;
+    height: 270px;
+    margin-top: 50px;
+    margin-left:750px;
+}
+
+.text-contact {
+    color:whitesmoke;
+    margin-left:150px;
+}
+
+.table-three {
+    color: whitesmoke;
+    font-style:italic;
+    margin-left:150px;
+}
+
+.table-four {
+    color: whitesmoke;
+    font-style:italic;
+    margin-left:150px;
+}
 
