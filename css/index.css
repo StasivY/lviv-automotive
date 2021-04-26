@@ -130,7 +130,7 @@ a:hover {
     align-items: center;
 }
 
-.carousel {
+.d-block w-100 {
     width: 450px; 
     height: 150px; 
 }
