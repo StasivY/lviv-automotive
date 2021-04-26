@@ -230,3 +230,9 @@ hr {
     margin-left:150px;
 }
 
+#free-consultation {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
