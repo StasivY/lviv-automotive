@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kanit&display=swap');
 :root {
     --red: #F00000;
     --white: #FFFFFF;
+    --fone: #191e35;  
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
     margin:auto;
     padding:auto;
-    font-family:Poppins, sans-serif;
-    background-color: #191e35;
+    font-family: 'Kanit', sans-serif;
+    background-color:#191e35;
 }
 
 .overheader {
@@ -47,40 +51,6 @@ body {
     background-color: orangered;
 }
  
-#first-block {
-    background: url(//img/background.jpeg);
-    background-repeat: no-repeat; 
-    background-position: top center;
-    background-attachment: fixed;
-    margin-top: 250px;
-    margin-bottom: 200px;
-}
-
-
-.name-logo {
-    font-family: Poppins, serif;
-    color: orangered;
-    font-size: 56px;
-    font-weight: 900;
-    line-height: 41px;
-    margin-left: 25px;
-    margin-top: 50px;
-    display:flex;
-    justify-content: center;
-}
-.subheading-logo {
-    font-family: Poppins, serif;
-    color:white;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 41px;
-    margin-left: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display:flex;
-    justify-content: center;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -103,37 +73,56 @@ a:hover {
     background-color: #191e35;
 }
 
-.table-one {
-    color: whitesmoke;
-    font-style:italic;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 41px;
-    margin-left: 25px;
-    margin-top: 30px;
+.section-first {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background: url(//img/background.jpeg);
 }
 
-
-.table-two {
-    color:whitesmoke;
-    font-style:italic;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 41px;
-    margin-left: 25px;
-    margin-top: 30px;
-  }
-
-  .about-us-table {
+.name-logo {
+    font-family: Poppins, serif;
+    color: orangered;
+    font-size: 96px;
     display:flex;
     justify-content: center;
-    align-items: center;
 }
 
-.d-block w-100 {
-    max-width: 300px; 
-    height: 150px; 
+.subheading-logo {
+    font-family: Poppins, serif;
+    color:white;
+    font-size: 24px;
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-bottom: 30px;
 }
+
+.about-us-table {
+    display: flex;
+}
+
+.d-block {
+    max-width: 400px;
+}
+
+.table-one {
+    margin-right:120px;
+    color:whitesmoke;
+    font-size:24px;
+    background-color: rgba(255, 68, 0, 0.603);
+    border-radius: 5px;
+}
+
+.table-two {
+    margin-left:120px;
+    color:whitesmoke;
+    font-size:24px;
+    background-color: rgba(255, 68, 0, 0.603);
+    border-radius: 5px;
+}
+
 
 .why-choose-text {
     display: flex;
@@ -142,6 +131,10 @@ a:hover {
     margin-top: 70px;
 }
 
+.carousel-indicators{
+    display: flex;
+    justify-content: center;
+}
 .workers-why-choose {
     width: 670px;
     height: 337px;
@@ -230,9 +223,49 @@ hr {
     margin-left:150px;
 }
 
-#free-consultation {
+.free-consultation {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+.free-consultation-form {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+    
+.lower-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start; 
+}
+footer {
+    background-color:rgba(92, 94, 102, 0.733); 
+}
+
+
+.lower-nav {
+    display: flex;
     flex-direction: column;
 }
 
+.lower-two-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-footer {
+    margin-left:390px;
+    margin-top:25px;
+    font-family: inherit;
+}
+
+.img-footer {
+    width: 210px;
+    height: 58px;
+}
+
+.icon-footer {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+}
