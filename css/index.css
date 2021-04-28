@@ -79,7 +79,7 @@ a:hover {
     margin-top: 250px;
     margin-bottom: 250px;
     background: url(../img/background.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -107,6 +107,7 @@ a:hover {
 
 .d-block {
     max-width: 400px;
+    margin: auto;
 }
 
 .table-one {
