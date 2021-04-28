@@ -1,4 +1,4 @@
-window.onscroll = function() {setSticky()};
+window.addEventListener('scroll', function() {setSticky()});
 
 const navbar = document.getElementById("navbar");
 const sticky = navbar.offsetTop;
