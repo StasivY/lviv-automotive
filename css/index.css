@@ -78,7 +78,9 @@ a:hover {
     justify-content: center;
     margin-top: 250px;
     margin-bottom: 250px;
-    background: url(//img/background.jpeg);
+    background: url(../img/background.jpeg);
+    background-size: contain;
+    background-position: center;
 }
 
 .name-logo {
@@ -268,4 +270,13 @@ footer {
     display:flex;
     justify-content: flex-end;
     margin-right: 250px;
+}
+
+.end-footer {
+    display: flex;
+}
+
+.end-p {
+    display: flex;
+    justify-content: flex-end;
 }
